@@ -21,7 +21,7 @@ p {
 }
 
 section {
-    height: 300px;
+    height: 500px;
     padding-top: 10px;
     padding-bottom: 150px;
 }
@@ -32,6 +32,12 @@ section {
     display: flex;
 }
 
+.Second-sec {
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .helf-wedth {
     width: 40%;
     float: left;
@@ -39,8 +45,8 @@ section {
     padding-left: 2%;
 }
 
-.top-para {
-    margin-top: 5%;
+.para {
+    margin-top: 50px;
 }
 
 h1 {
@@ -49,4 +55,37 @@ h1 {
 
 .helf-wedth img {
     width: 80%;
+}
+
+.Second-sec {
+    margin-top: 5%;
+}
+
+.experiances {
+    display: flex;
+}
+
+.experiances h3 {
+    color: orange;
+}
+
+.experiance-item {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px gray;
+}
+
+#item-1 {
+    border-left: 5px solid rgb(123, 20, 249);
+}
+
+#item-2 {
+    border-left: 5px solid rgb(123, 245, 31);
+}
+
+footer p {
+    text-align: center;
 }
